@@ -1,0 +1,130 @@
+\documentclass[xetex,serif]{beamer}
+\usepackage{bibentry}
+\usetheme{sanour}
+\usepackage{xltxtra}
+
+\XeTeXlinebreaklocale "th"
+
+\defaultfontfeatures{Scale=1.4}
+
+
+
+% Please start editing from this line 
+\title{การเสนอผลงานด้วย Beamer ธีม ``นำเสนอ"}
+\author{นายชอบ สไลด์สวย}
+\institute[XUT]{มหาวิทยาลัยเทคโนโลยีซักแห่งหนึ่ง (XUT) }
+
+\begin{document}
+\begin{frame}
+    \maketitle
+\end{frame}
+
+
+
+\begin{frame}{นิยามของคำว่า ``สไลด์สวย''}
+ถึงแม้ว่าคำว่า ``สวย'' นั้นขึ้นอยู่กับตัวบุคคล เราคิดว่าความเรียบง่ายคือส่วนประกอบที่สำคัญของ \textbf{สไลด์สวย}
+
+\bigskip 
+
+นอกจากนั้นฟอนต์ก็เป็นส่วนสำคัญ เราเลือกใช้
+ฟอนต์ \textbf{สุขุมวิท}  จาก \mbox{\textbf{บ. คัดสรรดีมาก}}
+\end{frame}
+
+\begin{frame}{การเน้นข้อความด้วยกล่อง}
+	\begin{block}{กล่องทั่วไป / block}
+	
+	ในนี้จะใส่อะไรก็ได้โตแล้ว
+	\end{block}
+	
+		\begin{exampleblock}{กล่องตัวอย่าง / exampleblock }
+
+ดูคนนั้นเป็นตัวอย่างซิ 	
+	\end{exampleblock}
+	
+	\begin{alertblock}{กล่องแจ้งเตือน / alertbox}
+แต่ห้ามใส่ขาสั้นน่ะ
+	\end{alertblock}
+
+	
+\end{frame}
+
+\begin{frame}{สมการ}
+	การใช้ $\LaTeX$ ทำให้ สามารถพิมพ์สมการได้อย่างสะดวก
+\par 
+	
+		\begin{block}{เมื่อแอปเปิ้ลตกใส่หัว}
+			\begin{align*}
+				F = ma			
+			\end{align*}
+
+		\end{block}
+\end{frame}
+
+\begin{frame}{การป้องกันการตัดคำ}
+
+ใช้คำสั่ง \textbackslash mbox เพื่อป้องกันการตัดคำไทย
+
+\end{frame}
+
+\begin{frame}{การแสดงผลด้วยลิสต์}
+\begin{itemize}
+	\item อันนี้แบบ itemize
+	\item ไม่มีเลขนำ \begin{itemize}
+	\item ย่อไปอีก
+	\end{itemize}
+\end{itemize}
+	
+\begin{enumerate}
+	\item อันนี้แบบ enumerate
+	\item มีเลขด้วย
+\end{enumerate}
+\end{frame}
+
+
+\begin{frame}{การจัดทำคอลัมน์}
+
+\begin{columns}
+\begin{column}{0.5\textwidth}
+นั่งตากลม ชมดาว พราวระยิบ
+กระซิบหวาน ขานรับ กับดารา
+\bigskip
+ฝังคำหวาน ผ่านสายลม พรมใบหญ้า
+มีความรัก ยิ้มรื่น ชื่นฉ่ำใจ
+
+
+
+\end{column}
+\begin{column}{0.5\textwidth}
+เสียงกระซิบ สายลม พรมใบหญ้า
+ปรารถนา รักหญ้า กว่าใครใคร
+
+\bigskip
+
+ให้อิจฉา สายลม พรมพัดไหว
+ฉันยังไร้ คู่ชม ตรมอุรา
+
+
+\end{column}
+\end{columns}
+
+	
+\end{frame}
+
+\begin{frame}{ลองอ้างอิง}
+
+อันนี้ภาษาไทย \cite{phongpaichit1996} แล้วก็อันนี้ภาษาอังกฤษ \cite{4600388}
+
+	\begin{alertblock}{ข้อจำกัด}
+		ชื่อผู้เขียนภาษาไทยยังไม่ลองรับ
+	\end{alertblock}	
+\end{frame}
+
+
+\begin{frame}[allowframebreaks]
+        \frametitle{References}
+        \bibliographystyle{amsalpha}
+        \bibliography{references.bib}
+\end{frame}
+
+
+\end{document}

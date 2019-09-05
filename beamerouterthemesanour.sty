@@ -1,0 +1,31 @@
+\mode<presentation>
+
+
+\setbeamertemplate{title page}
+{
+	\usebeamerfont{title}{\usebeamercolor[fg]{title}\inserttitle}\par
+	\usebeamerfont{subtitle}{\usebeamercolor[fg]{subtitle}\insertsubtitle}\par
+	\bigskip
+	\usebeamerfont{author}\insertauthor\par
+	\usebeamerfont{institute}\insertinstitute\par
+	\usebeamerfont{date}\insertdate
+}
+
+\setbeamertemplate{footline}
+{
+	\leavevmode
+	\hbox{
+		\begin{beamercolorbox}[wd=\paperwidth,ht=2.5ex,dp=1ex]{footline}%
+			\hspace{0.5cm}
+			\textbf{\insertauthor} | \inserttitle
+			\hfill
+			\insertframenumber \slash 
+			\inserttotalframenumber 
+			\hspace{0.5cm}
+			
+		\end{beamercolorbox}
+
+	}
+}
+
+\mode<all>
