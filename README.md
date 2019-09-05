@@ -1,4 +1,10 @@
-# Beamer ธีม "นำเสนอ"
+# Beamer ธีม "เสนอ"
+
+[**ตัวอย่าง**](./sanour.pdf)
+
+<div align="center">
+    <img src="https://i.imgur.com/7ScrFnZ.png" width="700px"/>
+</div>
 
 Beamer เป็นคลาสของ LaTex สำหรับการทำ Presentation เราได้ทำ ธีม "นำเสนอ" ขึ้นมา
 เพื่อให้ลองรับภาษาไทย และปรับสีให้ดูเรียบง่าย
