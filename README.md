@@ -17,6 +17,7 @@ Beamer เป็นคลาสของ LaTex สำหรับการทำ
   - [ดาวโหลด์][linkdownload]
 
 ## Acknowledgement
+- ขอบคุณ [น้ำใส ศุภวงศ์ (Namsai Supavong)](https://cargocollective.com/namsai) สำหรับคำแนะนำเรื่องฟอนต์
 - ขอบคุณ Google และ บ.คัดสรรดีมาก สำหรับ ฟอนต์ Noto Sans 
 - การพัฒนาเริ่มต้นจากธีมของ [Saarland University][saarland]
 
